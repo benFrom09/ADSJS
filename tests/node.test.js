@@ -25,10 +25,12 @@ describe('set correct next node', () => {
 });
 
 describe('Get correct node', () => {
-    
+
     node1.setNextNode(node2);
     expect(node1.getNextNode()).toEqual(node2);
-})
+});
+
+
 
 
 
